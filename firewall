@@ -1,0 +1,6 @@
+# /etc/config/firewall
+config defaults
+	option input 'REJECT'
+	option output 'ACCEPT'
+	option forward 'REJECT'
+	option syn_flood '0'
